@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Data.SqlClient;
+using FlimLibrary;
 using System.Threading.Tasks;
 
 namespace FlimLibrary
