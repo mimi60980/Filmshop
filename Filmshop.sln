@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Filmshop", "Filmshop\Filmshop.csproj", "{E843293F-DF08-4FD4-B820-02EF5B745AE9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlimLibrary", "FlimLibrary\FlimLibrary.csproj", "{56EB79FC-23FB-4A75-8EEC-047A6C5DA7E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFlim", "TestFlim\TestFlim.csproj", "{8C4FB95F-9EAE-47C1-9269-3DB1E144EC18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{E843293F-DF08-4FD4-B820-02EF5B745AE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E843293F-DF08-4FD4-B820-02EF5B745AE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E843293F-DF08-4FD4-B820-02EF5B745AE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56EB79FC-23FB-4A75-8EEC-047A6C5DA7E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56EB79FC-23FB-4A75-8EEC-047A6C5DA7E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56EB79FC-23FB-4A75-8EEC-047A6C5DA7E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56EB79FC-23FB-4A75-8EEC-047A6C5DA7E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C4FB95F-9EAE-47C1-9269-3DB1E144EC18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C4FB95F-9EAE-47C1-9269-3DB1E144EC18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C4FB95F-9EAE-47C1-9269-3DB1E144EC18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C4FB95F-9EAE-47C1-9269-3DB1E144EC18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
