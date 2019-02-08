@@ -8,21 +8,27 @@ namespace FlimLibrary
 {
     class Personne
     {
-        private string Nom;
-        private string Prénom;
-        private DateTime DateDeNaissance;
-        private string Nationalite;
-        public string Producteur;
-        public string Acteurs;
-
-
-        public Personne(string Nom, string Prenom, DateTime)
-        {
-
-        }
-        public string Nom1 { get => Nom; set => Nom = value; }
-        public string Prénom1 { get => Prénom; set => Prénom = value; }
-
-        public DateTime DateDeNaissance1 { get => DateDeNaissance; set => DateDeNaissance = value; }
+        public string Prenom { get; set; }
+        public string Nom { get; set; }
+        public DateTime DateDeNaissance { get; set; }
+        public int Age => calcul.Ageat(this.DateDeNaissance,DateTime.Now);
     }
+}
+
+static class calcul
+{
+    public static int Ageat(DateTime naissance , DateTime jour)
+    {
+        int annee = naissance.Year - jour.Year;
+        if (naissance.Month < jour.Month || naissance.Month == jour.Month && naissance.Day < jour.Day)
+            return annee - 1;
+        else
+            return annee;
+
+    }
+
+
+
+
+
 }
