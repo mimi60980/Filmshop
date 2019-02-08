@@ -15,6 +15,10 @@ namespace FlimLibrary
 
         abstract public void AddFlim(Flim newFlim);
         protected List<Flim> m_flims = new List<Flim>();
+
+        abstract public void AddPersonnes(Personne newPersonnes);
+        protected List<Personne> m_personnes = new List<Personne>();
+
     }
 }
 
