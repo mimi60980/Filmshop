@@ -6,16 +6,19 @@ using System.Threading.Tasks;
 
 namespace FlimLibrary
 {
-    class Personne
+     abstract class Personne
     {
         public string Prenom { get; set; }
         public string Nom { get; set; }
         public DateTime DateDeNaissance { get; set; }
-        public int Age => calcul.Ageat(this.DateDeNaissance,DateTime.Now);
+        public int Age => Calcul.Ageat(this.DateDeNaissance,DateTime.Now);
+
+        abstract public void AddFlim(Flim newFlim);
+        protected List<Flim> m_flims = new List<Flim>();
     }
 }
 
-static class calcul
+static class Calcul
 {
     public static int Ageat(DateTime naissance , DateTime jour)
     {
